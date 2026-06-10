@@ -1,0 +1,10 @@
+package ar.edu.unlp.objetos.dos.ejercicio1RedSocial;
+
+public class ReTweet extends Tweet {
+	private Tweet from;
+	public ReTweet(Tweet from) {
+		this.text = from.getText();
+		this.from = from;
+		
+	}
+}

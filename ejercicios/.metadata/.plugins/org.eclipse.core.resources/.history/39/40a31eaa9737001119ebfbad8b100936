@@ -1,0 +1,15 @@
+package Iteradores.CircularesBis;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+public class IntRingTest {
+	IntRing r1, r2;
+	@BeforeEach
+	void setUp() throws Exception {
+		int[] arra = new[2,5,6,2];
+		r1 = new IntRing();
+	}
+}

@@ -1,0 +1,21 @@
+package Iteradores.CircularesBis;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+public class CharRingTest {
+	
+	CharRing r1 , r2;
+	@BeforeEach
+	void setUp() throws Exception {
+		r1 = new CharRing("EJEMPLO".toString());
+		r2 = new CharRing("".toString());
+	}
+
+@Test
+	public void CharRingNextTest() {
+		char nada = "".charAt(0);
+		assertEquals(nada,r2.next());
+	}
+}

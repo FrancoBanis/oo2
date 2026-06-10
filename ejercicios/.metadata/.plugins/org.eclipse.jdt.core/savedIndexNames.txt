@@ -1,0 +1,13 @@
+INDEX VERSION 1.134+C:\Users\franb\Documents\Facultad\Primer_cuatrimestre_2026\OO2\oo2\.metadata\.plugins\org.eclipse.jdt.core
+22236617.index
+1583876199.index
+1865797976.index
+961954877.index
+1589316767.index
+3544856488.index
+1531651092.index
+883648623.index
+3219672321.index
+2499436982.index
+946145839.index
+2236177078.index

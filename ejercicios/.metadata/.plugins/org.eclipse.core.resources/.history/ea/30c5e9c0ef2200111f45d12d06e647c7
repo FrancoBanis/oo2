@@ -1,0 +1,11 @@
+package ar.edu.unlp.objetos.dos.ejercicio1RedSocial;
+
+import java.util.List;
+
+public class User {
+	private String screenName ;
+	private List<Tweet> tweets;
+	
+	
+	
+}

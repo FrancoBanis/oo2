@@ -1,0 +1,24 @@
+package ar.edu.unlp.objetos.dos.ejercicio1RedSocial;
+
+public class Tweet {
+	protected  String text;
+	
+	public Tweet(String text) {
+		if (this.isValidText(text)) {
+			this.text = text;
+		} 
+	}
+	public Tweet validTweet() {
+		if (this == null) {
+			return null;
+		} 
+		return this;
+	}
+	public String getText() {
+		return this.text;
+	}
+	private boolean isValidText (String text) {
+		return (text.length() >= 1 && text.length() <= 280);
+	}
+	
+}

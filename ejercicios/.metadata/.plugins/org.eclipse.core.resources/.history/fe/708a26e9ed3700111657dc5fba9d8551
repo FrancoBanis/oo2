@@ -1,0 +1,7 @@
+package Iteradores.CircularesBis;
+
+public class Ring {
+	private int idx;
+	
+	public abstract void next();
+}
