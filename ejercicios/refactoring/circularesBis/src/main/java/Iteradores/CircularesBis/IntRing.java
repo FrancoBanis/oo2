@@ -1,4 +1,4 @@
-package Iteradores.CircularesBis;
+package Iteradores.circularesBis;
 
 public class IntRing extends Ring{
 		private int[] source; 
